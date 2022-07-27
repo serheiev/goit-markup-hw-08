@@ -26,13 +26,8 @@
 }
 
 .footer__address {
-  @media screen and (min-width: 480px) {
-    text-align: center;
-    
-  }
-  @media screen and (min-width: 768px) {
-    text-align: center;
-  }
+  text-align: center;
+
   @media screen and (min-width: 1200px) {
     text-align: left;
   }
@@ -51,16 +46,9 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  text-align: center;
   padding-bottom: 20px;
 
-  @media screen and (min-width: 480px) {
-    text-align: center;
-
-   }
-   @media screen and (min-width: 768px) {
-    
-   }
    @media screen and (min-width: 1200px) {
     padding-top: 12px;
     text-align: left;
@@ -68,15 +56,8 @@
 }
 
 .footer-social-wrapper {
-  @media screen and (min-width: 480px) {
-   text-align: center;
-  }
-  @media screen and (min-width: 768px) {
+  text-align: center;
 
-  }
-  @media screen and (min-width: 1200px) {
-
-  }
 }
 
 .footer-social__link {
