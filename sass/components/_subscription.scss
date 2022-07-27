@@ -1,0 +1,59 @@
+.subscription {
+  display: flex;
+  @media screen and (min-width: 480px) {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    
+   }
+   @media screen and (min-width: 768px) {
+ 
+   }
+   @media screen and (min-width: 1200px) {
+    flex-direction: row;
+   }
+}
+
+.subscription__input {
+  display: block;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  
+  color: var(--light-text-color);
+
+  @media screen and (min-width: 480px) {
+    display: block;
+    width: 100%;
+   }
+   @media screen and (min-width: 768px) {
+ 
+   }
+   @media screen and (min-width: 1200px) {
+    width: 358px;
+   }
+}
+
+.subscription__btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  @media screen and (min-width: 480px) {
+
+   }
+   @media screen and (min-width: 768px) {
+ 
+   }
+   @media screen and (min-width: 1200px) {
+ 
+   }
+}
+
+.subscription__icon {
+  fill: currentColor;
+}

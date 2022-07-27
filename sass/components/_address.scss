@@ -1,0 +1,37 @@
+.address {
+  font-style: normal;
+}
+
+.address__list {
+  @media screen and (min-width: 480px) {
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 768px) {
+
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+
+.address__item {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.address__link {
+  color: var(--light-text-color);
+  text-decoration: none;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
+}
+
+.address__link--gray {
+  text-decoration: none;
+  color: var(--footer-text-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
+
+  &:hover,
+  &:focus {
+    color: var(--brend-color);
+  }
+}

@@ -1,0 +1,22 @@
+.btn {
+    border: none;
+    border-radius: 4px;
+    background-color: var(--brend-color);
+    color: var(--light-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    line-height: 1.8;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
+    cursor: pointer;
+    min-width: 200px;
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover, 
+    &:focus {
+        background-color: var(--brend-color-hover);
+    }
+  }
